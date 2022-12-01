@@ -303,7 +303,7 @@ li {
 
 .sub4-item {
     display: flex;
-    position: relative;
+    position: absolute;
 }
 
 .icon--left,
@@ -350,6 +350,7 @@ li {
 /* main--sub5 */
 
 .main--sub5 {
+    height: 370px;
     position: relative;
 }
 
@@ -357,6 +358,7 @@ li {
     display: flex;
     width: 100%;
     position: absolute;
+    z-index: 1;
 }
 
 .sub5--cart {
@@ -429,7 +431,7 @@ hr {
 
 .main--sub6 {
     display: flex;
-    margin-top: 50vh;
+    position: relative;
     justify-content: space-between;
     margin-bottom: 25px;
 }
@@ -503,9 +505,10 @@ hr {
 }
 
 footer {
-    margin-top: 320vh;
     height: 300px;
     font-size: 12px;
+    position: absolute;
+    width: 123px;
 }
 
 .sub--footer {
@@ -513,11 +516,14 @@ footer {
     text-align: center;
     font-size: 15px;
     padding: 10px 0;
+    margin-top: 20px;
 }
 
 .main--footer {
     padding: 20px 80px;
     display: flex;
+    position: absolute;
+    width: 1190px;
 }
 
 .contact {
