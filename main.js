@@ -155,10 +155,10 @@ const renderColor = (lists) => {
         .map((item) => {
             return `
         <div style=" 
-        margin-right: 10px;
+        margin-right: 5px;
         margin-top: 15px;
-        width: 15px;
-        height: 15px;
+        width: 12px;
+        height: 12px;
         border-radius: 50%;
          background-color: ${item}
         "></div>
@@ -222,11 +222,11 @@ const renderCart5 = (lists) => {
         <img src="./image/${el.img}" alt="" width="120" />
         <p>${el.title}</p>
         <p>${el.price}$</p>
-       <div class="cart--name">
-       <h4>${el.name}</h4>
-       <hr/>
-       </div>
-    </div>
+       
+        <h4>${el.name}</h4>
+        <hr/>
+      
+        </div>
         `;
     });
     return htmls.join(" ");

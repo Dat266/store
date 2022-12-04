@@ -1,0 +1,344 @@
+@media screen and (max-width: 734px) {
+    .container {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px;
+        height: 23%;
+    }
+
+    .logo {
+        font-size: 13px;
+        width: 200px;
+        padding-right: 0;
+    }
+
+    .search {
+        background-color: #fff9f3;
+        position: relative;
+    }
+
+    .icon--ellipse {
+        right: 0;
+        top: 7px;
+    }
+
+    .icon--line {
+        left: 47px;
+        bottom: -24px;
+    }
+
+    .search--icon {
+        position: absolute;
+        right: 0;
+    }
+
+    .search--select,
+    .search--input {
+        display: none;
+    }
+
+    .action {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .action--help {
+        display: none;
+    }
+
+    .action--account,
+    .action--shop {
+        padding: 5px;
+        width: 30%;
+    }
+
+    .action--account span,
+    .action--shop span {
+        display: none;
+    }
+
+    .shop--top {
+        top: 12px;
+    }
+
+    .shop--bot {
+        left: 0;
+    }
+
+    .list {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .list li a {
+        font-size: 9px;
+        padding-right: 6px;
+        text-align: center;
+        line-height: 10px;
+    }
+
+    .main {
+        padding: 125px 10px;
+        width: 100%;
+    }
+
+    .main--sub1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .sub1--item img {
+        width: 100%;
+    }
+
+    .sub1--item:nth-child(even) {
+        margin: 0 5px;
+    }
+
+    .sub1--item span {
+        font-size: 6px;
+        left: 2px;
+        bottom: 18px;
+    }
+
+    .main--sub2 {
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+
+    .cart {
+        padding: 5px;
+        width: 49%;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+
+    .heart {
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        right: 10px;
+        top: 10px;
+    }
+
+    .heart img {
+        margin-top: 0;
+        width: 10px;
+        height: 10px;
+        margin-bottom: 5px;
+    }
+
+    .img {
+        padding-top: 20px;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .cart p {
+        padding: 6px 0;
+        text-align: left;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        bottom: 2px;
+        left: 7px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .main--sub3 {
+        margin: 0;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sub3--item {
+        margin-bottom: 5px;
+        height: 70%;
+        width: 100%;
+    }
+
+    .item--title {
+        flex: 1;
+    }
+
+    .item--title h4 {
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .item--title p {
+        font-size: 10px;
+    }
+
+    .sub3--img {
+        text-align: center;
+    }
+
+    .sub3--img img {
+        width: 50%;
+    }
+
+    .main--sub4 p,
+    .main--sub4 h5 {
+        margin-top: 0;
+        font-size: 10px;
+    }
+
+    .image {
+        margin: 10px 0;
+        gap: 3px;
+    }
+
+    .img--item {
+        padding: 2px;
+        margin-bottom: 5px;
+        width: 99%;
+        height: 60%;
+    }
+
+    .sub--image {
+        font-size: 8px;
+    }
+
+    .icon--left,
+    .icon--right,
+    .icon--right1,
+    .icon--left1 {
+        width: 9px;
+        height: 9px;
+    }
+
+    .icon--left {
+        left: -10px;
+        bottom: 38%;
+    }
+
+    .icon--right {
+        right: -10px;
+        bottom: 38%;
+    }
+
+    .sub5--cart {
+        width: 100%;
+        height: 316px;
+        overflow-x: scroll;
+        gap: 5px;
+    }
+
+    .icon--left1 {
+        left: -10px;
+        top: 130px;
+    }
+
+    .icon--right1 {
+        right: -10px;
+        top: 130px;
+    }
+
+    .main--sub6 {
+        width: 100%;
+        margin-top: 10px;
+        height: 90%;
+        overflow-x: scroll;
+    }
+
+    .sub6--img1 {
+        width: 50%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        width: 185px;
+    }
+
+    .sub6--item {
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sub6--item .cart {
+        width: 185px;
+    }
+
+    .main--sub8 {
+        height: 180px;
+        padding: 10px;
+    }
+
+    .main--sub8 p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .sub8--input {
+        width: 90%;
+        margin: 20px auto;
+        padding: 2px;
+    }
+
+    .sub8--input button {
+        font-size: 10px;
+    }
+
+    .sub8--link a {
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    .sub--footer {
+        font-size: 11px;
+    }
+
+    .main--footer {
+        padding: 10px 0;
+    }
+
+    .contact {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .icon--footer {
+        gap: 5px;
+        margin-bottom: 90px;
+    }
+
+    .icon--facebook,
+    .icon--twitter,
+    .icon--linkedin,
+    .icon--dribbble {
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    .icon--facebook img,
+    .icon--twitter img,
+    .icon--linkedin img,
+    .icon--dribbble img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .top--1 {
+        line-height: 20px;
+        font-size: 10px;
+        margin-right: 12px;
+    }
+
+    .nav--bot p {
+        font-size: 10px;
+    }
+}

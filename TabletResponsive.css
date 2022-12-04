@@ -1,0 +1,287 @@
+@media screen and (min-width: 736px) and (max-width: 1080px) {
+    * {
+        font-size: 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    header {
+        height: 140px;
+        padding: 10px 30px;
+    }
+
+    .logo {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+
+    .search {
+        height: 30px;
+        margin-top: 10px;
+        padding: 0.3rem;
+    }
+
+    .search--select {
+        width: 165px;
+        height: 25px;
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    .search--icon {
+        width: 3px;
+    }
+
+    .icon--ellipse {
+        top: 3px;
+        left: -21px;
+    }
+
+    .icon--line {
+        bottom: 4px;
+        left: -10px;
+    }
+
+    .action--help {
+        height: 30px;
+        width: 40px;
+        margin-top: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .action--account,
+    .action--shop {
+        font-size: 11px;
+    }
+
+    .list li a {
+        font-size: 11px;
+    }
+
+    .main {
+        padding: 150px 30px;
+    }
+
+    .sub1--item img {
+        width: 100%;
+    }
+
+    .sub1--item:nth-child(even) {
+        margin: 0;
+    }
+
+    .main--sub2 {
+        padding: 15px 20px 15px 0;
+        flex-wrap: wrap;
+        gap: 10px;
+        display: flex;
+    }
+
+    .cart {
+        height: 380px;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    .heart {
+        width: 15px;
+        height: 15px;
+    }
+
+    .heart img {
+        margin-top: 3px;
+    }
+
+    .main--sub1 {
+        padding-top: 5px;
+    }
+
+    .sub1--item img {
+        width: 98%;
+    }
+
+    .main--sub2 {
+        flex-wrap: nowrap;
+        margin-bottom: 5px;
+        padding-right: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .main--sub2 img {
+        width: 90%;
+    }
+
+    .cart {
+        padding: 15px;
+        height: 310px;
+        width: 180px;
+    }
+
+    .heart img {
+        margin-top: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .main--sub3 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .sub3--item {
+        width: 32.3%;
+        height: 100px;
+        padding: 10px 13px;
+        align-items: center;
+    }
+
+    .item--title p,
+    .item--title h4 {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .item--title h4 {
+        line-height: 10px;
+    }
+
+    .item--title {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .sub3--img img {
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon--left,
+    .icon--right,
+    .icon--right1,
+    .icon--left1 {
+        width: 12px;
+        height: 12px;
+    }
+
+    .icon--left {
+        left: -2.5%;
+        bottom: 40%;
+    }
+
+    .icon--right {
+        right: -2.5%;
+        bottom: 40%;
+    }
+
+    .img--item {
+        margin-bottom: 5px;
+    }
+
+    .image {
+        margin: 10px 0;
+    }
+
+    .sub--image img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .main--sub5 {
+        height: 280px;
+    }
+
+    .cart--item {
+        width: 16%;
+        font-size: 10px;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .cart--item img:nth-child(even) {
+        width: 80%;
+    }
+
+    .cart--item p:nth-child(even) {
+        bottom: 5px;
+    }
+
+    .cart--item h4,
+    hr {
+        left: 0;
+    }
+
+    .icon--left1 {
+        left: -3%;
+        bottom: 0;
+    }
+
+    .icon--right1 {
+        right: -3%;
+        bottom: 0;
+    }
+
+    .sub6--img1 {
+        width: 24%;
+        margin-right: 10px;
+    }
+
+    .sub6--item {
+        gap: 10px;
+    }
+
+    .sub6--item img {
+        width: 90%;
+    }
+
+    .sub6--item .cart {
+        width: 77%;
+    }
+
+    .sub6--item .cart p {
+        font-size: 10px;
+    }
+
+    .main--sub8 p {
+        font-size: 10px;
+    }
+
+    .sub8--input {
+        width: 70%;
+        margin: 20px auto;
+        padding: 3px;
+    }
+
+    .sub8--input button,
+    .sub8--link a {
+        font-size: 10px;
+    }
+
+    .sub--footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+
+    .contact {
+        width: 50%;
+        padding-left: 8%;
+    }
+
+    .nav--top {
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    .top--1 {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .icon--footer {
+        margin-bottom: 13%;
+    }
+}
